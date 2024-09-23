@@ -1,0 +1,179 @@
+body {
+  margin: 0%;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 80%;
+}
+.welcome {
+  background-color: skyblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+/* this if for icons facebood insta and youtube */
+.welcome > div {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  background-color: rgb(2, 2, 67);
+  padding: 10px 0;
+  color: white;
+  font-size: 24;
+  font-weight: 400;
+  padding-left: 50px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* this navbar css we have done to make the logo design */
+.navbar {
+  background-color: white;
+  color: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  border: 2px dotted;
+  color: black;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* list-style-type none  used to remove bullet point  */
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+/* this header ul li write because it select list item and here we put 1rem it means space between these three */
+header ul li {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+header ul li:hover {
+  background-color: red;
+  color: #ffffff;
+  transform: scaleX(1.5);
+}
+/* image section */
+.image {
+  background-image: url(image/pic2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-content {
+  width: 450px;
+
+  background: rgba(0, 0, 0, 0.478);
+  color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-content hr {
+  width: 100%;
+}
+.latestposts {
+  padding: 3rem 0;
+  background: url(image/pic8.jpg) no-repeat center;
+  background-size: cover;
+}
+.latestposts h2 {
+  color: white;
+}
+.main1 {
+  display: flex;
+  gap: 1rem;
+}
+.articles {
+  width: 66%;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.334);
+  background: rgba(255, 255, 255, 0.841);
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 20px 16px;
+}
+article .art-image {
+  width: 200px;
+}
+
+article .btn {
+  float: right;
+  background: rgb(231, 60, 3);
+  color: white;
+}
+.side-links {
+  width: 34%;
+}
+.country {
+  background: rgba(255, 255, 0, 0.489);
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.Date {
+  background: rgba(255, 255, 0, 0.489);
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+/* recommendation section */
+.card-lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  width: 50px;
+  height: fit-content;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.334);
+  padding-bottom: 32px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.card .btn {
+  width: 100%;
+  background: red;
+  color: white;
+  border-color: red;
+  box-shadow: inset;
+}
+/* footer section */
+footer {
+  background: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin-top: 32px;
+}
